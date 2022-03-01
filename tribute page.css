@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height:100%;
+    overflow: hidden;
+}
+.bg{
+    background-position: center;
+    background-repeat: no-repeat;
+ background-size: cover;
+    height: 100%;
+    background-image: url("https://i0.wp.com/hindilish.com/wp-content/uploads/2022/02/Lata-Mangeshkar-Biography-in-Hindi.png?resize=840%2C473&ssl=1");
+}
+.name{
+    text-align:center;
+    justify-content: center;
+    margin-top: 6cm;
+}
+.name1{
+    
+        font-size: 72px;
+        background: -webkit-linear-gradient(rgb(230, 4, 4), rgb(230, 120, 120));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      
+    
+
+}
+.dob{
+    font-size: 40px;
+    color: rgb(10, 28, 31);
+
+}
+.para{
+    font-size: 25px;
+    color: #fff
+  
+}
+
+.btn-grad {background-image: linear-gradient(to right, #f857a6 0%, #ff5858  51%, #f857a6  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   margin-left: 500px;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+.btn-grad a{
+    color: #eee;
+}
